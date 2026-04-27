@@ -9,19 +9,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
   }
-  &__star--1 {
-    background-image: url(../images/star-active.svg);
-  }
-  &__star--2 {
-    background-image: url(../images/star-active.svg);
-  }
-  &__star--3 {
-    background-image: url(../images/star-active.svg);
-  }
-  &__star--4 {
-    background-image: url(../images/star-active.svg);
-  }
 
-  // &__star--5 {
-  // }
+  &__star:nth-child(-n + 4) {
+    background-image: url(../images/star-active.svg);
+  }
 }
